@@ -6,11 +6,11 @@ while True:
 	numbers.append(n)
 	c += 1
 	s += n
-	if s > 10:
+	if s > 99:
 		for i in numbers:
 			print(i)
 		break
-	elif c > 2:
+	elif c > 9:
 		for j in numbers:
 			print(j)
 		break
